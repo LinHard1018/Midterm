@@ -1,0 +1,293 @@
+body{
+    background-color: #242424;
+}
+
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-color: #242424;
+}
+.topbanner{
+    background-image:url(img\mainbanner@2x.png);
+    background-size: auto;
+    filter:brightness(20%);
+    filter: rgb(5px);
+    z-index: 0;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.logo{
+    z-index: 2;
+    position: absolute;
+}
+.row{
+    width: 1200px;
+    position: relative;
+    top:40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0px;
+    z-index: 1;
+}
+.navbar_ul{
+    width: 1200px;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 22px;
+}
+.nav-link:hover{
+    color: #d59e48;
+    
+}
+
+.brandstory_title{
+    color: #ffffff;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    size: 44px;
+}
+.aboutJENJUDAN{
+    color: #d59e48;
+    font-size: 26px;
+}
+.about_content{
+    color: #ffffff;
+    font-size: 20px;
+    width: 590px;
+}
+
+.brandstory_btn_more{
+    margin-top: 28px;
+    background-color: #77603c;
+    color: #ffffff;
+    border: solid 0px;
+    border-radius: 30px;
+    padding: 12px 41px 12px 41px;
+    font-size: 26px;
+    
+}
+.brandstory_btn_a{
+    background-color: #77603c;
+    color: #ffffff;
+    border: solid 0px;
+    border-radius: 30px;
+    font-size: 26px;
+}
+.brandstory_btn_a:hover{
+    text-decoration:none;
+    color: #242424;
+}
+.brandstory_bgc{
+    width: 100%;
+    background-color: #242424;
+    height: 700px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+/* index*/
+
+.brandconcept_bgc{
+    background-color: #fff;
+    height: 583px;
+    width: 100%;
+}
+
+.brandconcept_title{
+    color: #242424;
+    text-align:center;
+    size: 44px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.brandconcept{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.threecircle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle_words{
+    color: #d59e48;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+.brandconcept_concent{
+    color: #242424;
+    font-size: 20px;
+    text-align: center;
+}
+.intro_img{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.award_bgc{
+background-color: #242424;
+height: 600px;
+}
+.award{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.award_title{
+    color: #ffffff;
+    text-align:center;
+    size: 44px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.awardicon{
+    display: flex;
+    justify-content: space-between;
+}
+.awardicon_list{
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.awardicon_words{
+    color: #d59e48;
+    font-size: 26px;
+    text-align: center;
+    margin-left:-50px;
+}
+
+.hotitem_title{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.allitem_title{
+    margin-top:70px ;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom:0px ;
+    color: #fff;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blacksugar{
+    margin-top:70px ;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom:0px ;
+    color: #fff;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.latte_title{
+    color: #fff;
+}
+.latte{
+    margin-top:70px ;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom:0px ;
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blacksugar_title{
+
+    color: #fff;
+}
+.item{
+    text-align: center;
+    width: 240px;
+}
+.item_title{
+    color: #d59e48;
+    margin: 0px;
+    margin-top: 25px;
+}
+.item_price{
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+.col-xl-3.col-lg-4{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.item_btn_more{
+    margin-top: 0px;
+    background-color: #77603c;
+    color: #ffffff;
+    border: solid 0px;
+    border-radius: 30px;
+    padding: 12px 41px 12px 41px;
+    font-size: 26px;
+}
+
+.col-xl-2.col-lg-2{
+    padding: 0px;
+    margin: 0px;
+}
+.item_btn_a{
+    background-color: #77603c;
+    color: #ffffff;
+    border: solid 0px;
+    border-radius: 30px;
+    font-size: 26px;
+}
+.item_btn_a:hover{
+    text-decoration:none;
+    color: #242424;
+}
+.showall_div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+.showall{
+    color: #fff;
+    font-size: 20px;
+}
